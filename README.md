@@ -12,6 +12,7 @@ Java basic examples of design pattern
   - [Bridge](https://github.com/oktaykcr/java-design-pattern/tree/master/src/main/java/structural/bridge) - [Client](https://github.com/oktaykcr/java-design-pattern/blob/master/src/test/java/structural/BridgePatternTest.java)
   - [Composite](https://github.com/oktaykcr/java-design-pattern/tree/master/src/main/java/structural/composite) - [Client](https://github.com/oktaykcr/java-design-pattern/blob/master/src/test/java/structural/CompositePatternTest.java)
   - [Decorator](https://github.com/oktaykcr/java-design-pattern/tree/master/src/main/java/structural/decorator) - [Client](https://github.com/oktaykcr/java-design-pattern/blob/master/src/test/java/structural/DecoratorPatternTest.java)
+  - [Flyweight](https://github.com/oktaykcr/java-design-pattern/tree/master/src/main/java/structural/flyweight) - [Client](https://github.com/oktaykcr/java-design-pattern/blob/master/src/test/java/structural/FlyweightPatternTest.java)
 - **Behavioral**
   - [Command](https://github.com/oktaykcr/java-design-pattern/tree/master/src/main/java/behavioral/command) - [Client](https://github.com/oktaykcr/java-design-pattern/blob/master/src/test/java/behavioral/CommandPatternTest.java)
   - [Memento](https://github.com/oktaykcr/java-design-pattern/tree/master/src/main/java/behavioral/memento) - [Client](https://github.com/oktaykcr/java-design-pattern/blob/master/src/test/java/behavioral/MementoPatternTest.java)
