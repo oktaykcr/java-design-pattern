@@ -1,32 +1,34 @@
 package behavioral;
 
-import behavioral.memento.TextEditor;
-import behavioral.memento.TextState;
+import behavioral.memento.*;
 import org.junit.Test;
+
+import java.util.Date;
 
 public class MementoPatternTest {
 
     /**
-     * Title: Title State 1 Content: Hello World
-     * Title: Title State 2 Content: Hello World second text
-     * Title: Title State 1 Content: Hello World
+     * OUTPUT:
+     * Editor{title='Hello World', text='My text', createdDate=Sat Oct 30 00:17:00 TRT 2021}
+     * Editor{title='new title', text='new text', createdDate=Sat Oct 30 00:17:01 TRT 2021}
+     * Editor{title='Hello World', text='My text', createdDate=Sat Oct 30 00:17:00 TRT 2021}
      */
     @Test
     public void mementoPattern() {
-        TextEditor textEditor = new TextEditor();
+        EditorCaretaker editorCaretaker = new EditorCaretaker();
 
-        textEditor.write("Hello World");
-        textEditor.setTitle("Title State 1");
-        TextState state = textEditor.save();
-        textEditor.getCurrentContext();
+        EditorOriginator editorOriginator = new EditorOriginator("Hello World", "My text", new Date());
 
-        textEditor.write(" second text");
-        textEditor.setTitle("Title State 2");
-        TextState state2 = textEditor.save();
-        textEditor.getCurrentContext();
+        System.out.println(editorOriginator.toString());
 
+        EditorMemento editorMemento = editorOriginator.backup();
+        editorCaretaker.setMemento(editorMemento);
 
-        textEditor.undo(state);
-        textEditor.getCurrentContext();
+        editorOriginator = new EditorOriginator("new title", "new text", new Date());
+
+        System.out.println(editorOriginator.toString());
+
+        editorOriginator.restore(editorMemento);
+        System.out.println(editorOriginator.toString());
     }
 }
