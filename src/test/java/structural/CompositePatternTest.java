@@ -18,10 +18,10 @@ public class CompositePatternTest {
         computer.addComponent(new GraphicCard());
 
         Component motherboard = new Motherboard();
-        System.out.println("Motherboard Price : " + motherboard.calculatePrice());
+        System.out.println(motherboard.getName() +" Price : " + motherboard.calculatePrice());
         computer.addComponent(motherboard);
 
 
-        System.out.println("Computer total price : " + computer.calculatePrice());
+        System.out.println(computer.getName() + " total price : " + computer.calculatePrice());
     }
 }

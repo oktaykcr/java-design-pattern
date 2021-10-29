@@ -8,7 +8,12 @@ public class Computer implements Component {
     private List<Component> componentList;
 
     public Computer() {
-        this.componentList = new ArrayList<Component>();
+        this.componentList = new ArrayList<>();
+    }
+
+    @Override
+    public String getName() {
+        return "Computer";
     }
 
     public float calculatePrice() {
@@ -32,4 +37,7 @@ public class Computer implements Component {
         }
     }
 
+    public List<Component> getComponentList() {
+        return componentList;
+    }
 }

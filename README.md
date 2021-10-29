@@ -21,3 +21,4 @@ Java basic examples of design pattern
   - [Observer](https://github.com/oktaykcr/java-design-pattern/tree/master/src/main/java/behavioral/observer) - [Client](https://github.com/oktaykcr/java-design-pattern/blob/master/src/test/java/behavioral/ObserverPatternTest.java)
   - [Mediator](https://github.com/oktaykcr/java-design-pattern/tree/master/src/main/java/behavioral/mediator) - [Client](https://github.com/oktaykcr/java-design-pattern/blob/master/src/test/java/behavioral/MediatorPatternTest.java)
   - [Strategy](https://github.com/oktaykcr/java-design-pattern/tree/master/src/main/java/behavioral/strategy) - [Client](https://github.com/oktaykcr/java-design-pattern/blob/master/src/test/java/behavioral/StrategyPatternTest.java)
+  - [Iterator](https://github.com/oktaykcr/java-design-pattern/tree/master/src/main/java/behavioral/iterator) - [Client](https://github.com/oktaykcr/java-design-pattern/blob/master/src/test/java/behavioral/IteratorPatternTest.java)
