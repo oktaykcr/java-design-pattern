@@ -5,7 +5,7 @@ import behavioral.template.Game;
 import behavioral.template.VideoGame;
 import org.junit.Test;
 
-public class TemplateDesignPattern {
+public class TemplatePatternTest {
 
     /**
      * OUTPUT:
