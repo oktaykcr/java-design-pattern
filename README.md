@@ -26,3 +26,5 @@ Java basic examples of design pattern
   - [Chain Of Responsibility](https://github.com/oktaykcr/java-design-pattern/tree/master/src/main/java/behavioral/chainOfResponsibility) - [Client](https://github.com/oktaykcr/java-design-pattern/blob/master/src/test/java/behavioral/ChainOfResponsibilityPatternTest.java)
   - [Visitor](https://github.com/oktaykcr/java-design-pattern/tree/master/src/main/java/behavioral/visitor) - [Client](https://github.com/oktaykcr/java-design-pattern/blob/master/src/test/java/behavioral/VisitorPatternTest.java)
   - [State](https://github.com/oktaykcr/java-design-pattern/tree/master/src/main/java/behavioral/state) - [Client](https://github.com/oktaykcr/java-design-pattern/blob/master/src/test/java/behavioral/StatePatternTest.java)
+- **Others**
+  - [Null Object](https://github.com/oktaykcr/java-design-pattern/tree/master/src/main/java/other/nullobject) - [Client](https://github.com/oktaykcr/java-design-pattern/blob/master/src/test/java/other/NullObjectPatternTest.java)
